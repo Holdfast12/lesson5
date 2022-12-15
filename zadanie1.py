@@ -17,5 +17,4 @@ def checkpasswd(stroka):
     else:
         return False
 
-while True:
-    print(checkpasswd(input('Введите пароль на проверку: ')))
+print(checkpasswd(input('Введите пароль на проверку: ')))
